@@ -1,0 +1,24 @@
+{
+  "en": {
+    "add": "Add",
+    "update": "Update",
+    "edit": "Edit",
+    "submit": "Submit",
+    "reset_password": "Reset",
+    "send": "Send",
+    "sign_in": "Sign in",
+    "register": "Register",
+    "delete": "Delete"
+  },
+  "fr": {
+    "add": "Ajouter",
+    "update": "Mettre à jour",
+    "edit": "Modifier",
+    "submit": "Valider",
+    "reset_password": "Réinitialiser",
+    "send": "Envoyer",
+    "sign_in": "Se connecter",
+    "register": "S'enregistrer",
+    "delete": "Supprimer"
+  }
+}

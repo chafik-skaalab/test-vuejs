@@ -1,0 +1,20 @@
+{
+  "en": {
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "avatarUrl": "Avatar",
+    "quantity": "Quantity"
+  },
+  "fr": {
+    "email": "Email",
+    "password": "Mot de passe",
+    "name": "Nom",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "avatarUrl": "Avatar",
+    "quantity": "Quantité"
+  }
+}

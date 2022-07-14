@@ -1,0 +1,14 @@
+{
+  "en": {
+    "login": {
+      "not_found": "This account does not exist.",
+      "invalid": "Your login or password is invalid."
+    }
+  },
+  "fr": {
+    "login": {
+      "not_found": "Ce compte n'existe pas.",
+      "invalid": "Votre identiant ou votre mot de passe est invalide."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+// Customize Bulma
+@import "initial-variables";
+@import "derived-variables";
+
+// Update some of Bulma's component variables
+// Form
+$control-border-width: 1px;
+
+$control-height: 3em;
+$control-line-height: 1.25;
+
+$control-padding-vertical: calc(0.75rem - #{$control-border-width});
+$control-padding-horizontal: calc(1rem - #{$control-border-width});
+// Input
+$input-color: $grey-darker;
+$input-border-color: $grey-lightest;
+$input-shadow: none;
+$input-placeholder-color: $grey;
+$input-focus-border-color: $grey;
+$input-focus-box-shadow-size: 0;
+// Sidebar
+$sidebar-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$sidebar-width: 16rem; // w-64
+$sidebar-mobile-width: 5rem; // w-20
+
+// Customize Buefy
+$speed-slow: 150ms;
+$speed-slower: 300ms;
+
+// Import Bulma styles
+// @import "~bulma";
+@import "~bulma/sass/utilities/_all";
+@import "~bulma/sass/base/_all";
+@import "~bulma/sass/elements/_all";
+@import "~bulma/sass/form/_all";
+@import "~bulma/sass/components/_all";
+@import "~bulma/sass/grid/_all";
+// @import "~bulma/sass/helpers/_all";
+@import "~bulma/sass/helpers/color";
+@import "~bulma/sass/helpers/other";
+@import "~bulma/sass/helpers/position";
+@import "~bulma/sass/helpers/typography";
+@import "~bulma/sass/helpers/visibility";
+@import "~bulma/sass/layout/_all";
+
+// Import Buefy styles
+@import "~buefy/src/scss/buefy";

@@ -1,0 +1,71 @@
+
+/**
+ * Customize initial Bulma variables here.
+ * @see https://github.com/jgthms/bulma/blob/master/sass/utilities/derived-variables.sass
+ *
+ * Be careful not use any Tailwind theme() function or @apply here as it doesn't play well with Sass functions.
+ * @see https://tailwindcss.com/docs/using-with-preprocessors#sass
+ */
+
+// Colors
+// Colors are taken from the tailwind.config.js using `/src/plugins/tailwind/config/skaalab-colors.js` and https://v1.tailwindcss.com/docs/customizing-colors#default-color-palette.
+$black: #000000;
+$black-bis: #1A202C; // colors.gray.900
+$black-ter: #2D3748; // colors.gray.800
+
+$grey-darker: #4A5568; // colors.gray.700
+$grey-dark: #718096; // colors.gray.600
+$grey: #A0AEC0; // colors.gray.500
+$grey-light: #CBD5E0; // colors.gray.400
+$grey-lighter: #E2E8F0; // colors.gray.300
+$grey-lightest: #EDF2F7; // colors.gray.200
+
+$white-ter: #EDF2F7; // colors.gray.200
+$white-bis: #F7FAFC; // colors.gray.100
+$white: #FFFFFF;
+
+$orange: #F26D3D; // colors.orange.500 - Skaalab
+$yellow: #ECC94B; // colors.yellow.500
+$green: #14C472; // colors.green.500 - Skaalab
+$turquoise: #38B2AC; // colors.teal.500
+$cyan: #2495FF; // colors.info.500 - Skaalab
+$blue: #1965FF; // colors.blue.500 - Skaalab
+$purple: #9F7AEA; // colors.purple.500
+$red: #E64C53; // colors.red.500 - Skaalab
+
+// Typography
+$family-sans-serif: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+$size-1: 3rem;
+$size-2: 2.25rem;
+$size-3: 1.875rem;
+$size-4: 1.5rem;
+$size-5: 1.25rem;
+$size-6: 1rem;
+$size-7: 0.75rem;
+
+$weight-light: 300;
+$weight-normal: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
+$weight-bold: 700;
+
+// Spacing
+$block-spacing: 1.5rem;
+
+// Responsiveness
+$gap: 0px;
+$tablet: 640px;
+$desktop: 768px;
+$widescreen: 1024px;
+$widescreen-enabled: true;
+$fullhd: 1280px;
+$fullhd-enabled: true;
+
+// Miscellaneous
+$easing: cubic-bezier(0.4, 0, 0.2, 1);
+$radius-small: 0.125rem;
+$radius: 0.25rem;
+$radius-large: 0.5rem;
+$radius-rounded: 9999px;
+$speed: 100ms;

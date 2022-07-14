@@ -1,0 +1,14 @@
+{
+  "en": {
+    "success": {
+      "update_successful": "Update successful!",
+      "login_successful": "Login successful!"
+    }
+  },
+  "fr": {
+    "success": {
+      "update_successful": "Mise à jour réussie !",
+      "login_successful": "Connexion réussie !"
+    }
+  }
+}
