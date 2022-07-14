@@ -70,14 +70,14 @@ La clé d'API SUPABASE_KEY nécessaire pour les requêtes est définie dans le f
 
 - READ
 ```
-curl 'https://bafepwueirdanzwqmycw.supabase.co/rest/v1/items?select=*' \
+curl 'https://smxuyqippxiznhctimoc.supabase.co/rest/v1/items?select=*' \
 -H "apikey: SUPABASE_KEY" \
 -H "Authorization: Bearer SUPABASE_KEY"
 ```
 
 - CREATE
 ```
-curl -X POST 'https://bafepwueirdanzwqmycw.supabase.co/rest/v1/items' \
+curl -X POST 'https://smxuyqippxiznhctimoc.supabase.co/rest/v1/items' \
 -H "apikey: SUPABASE_KEY" \
 -H "Authorization: Bearer SUPABASE_KEY" \
 -H "Content-Type: application/json" \
@@ -86,7 +86,7 @@ curl -X POST 'https://bafepwueirdanzwqmycw.supabase.co/rest/v1/items' \
 
 - UPDATE
 ```
-curl -X PATCH 'https://bafepwueirdanzwqmycw.supabase.co/rest/v1/items?id=eq.${id}' \
+curl -X PATCH 'https://smxuyqippxiznhctimoc.supabase.co/rest/v1/items?id=eq.${id}' \
 -H "apikey: SUPABASE_KEY" \
 -H "Authorization: Bearer SUPABASE_KEY" \
 -H "Content-Type: application/json" \
@@ -95,7 +95,7 @@ curl -X PATCH 'https://bafepwueirdanzwqmycw.supabase.co/rest/v1/items?id=eq.${id
 
 - DELETE
 ```
-curl -X DELETE 'https://bafepwueirdanzwqmycw.supabase.co/rest/v1/items?id=eq.${id}' \
+curl -X DELETE 'https://smxuyqippxiznhctimoc.supabase.co/rest/v1/items?id=eq.${id}' \
 -H "apikey: SUPABASE_KEY" \
 -H "Authorization: Bearer SUPABASE_KEY"
 ```
